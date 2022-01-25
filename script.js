@@ -3,7 +3,7 @@ function exercise(x) {
   return "Today's exercise is " + x;
 }
 let bike = exercise("Biking");
-var swim = exercise("Swimming");
+let swim = exercise("Swimming");
 console.log(bike);
 console.log(swim);
 

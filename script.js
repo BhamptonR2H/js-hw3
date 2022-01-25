@@ -46,14 +46,6 @@ Person.prototype.fetchJob = function() {
 class Programmer{
   constructor (name, job, age, languages){
     Person.call(this, name, job, age );
-    this.languages = languages;
-    this.busy = true;
-    Programmer.prototype.completeTask = function(){this.busy = false};
-    Programmer.prototype.offerNewTask = function(){
-        console.log(this.busy ? `${this.name} can't accept any new tasks right now.` : `${this.name} would love to take on a new responsibility.`)
-    };
-    Programmer.prototype.learnLanguage = function(language) { this.languages.push(language) };
-    Programmer.prototype.listLanguages = function() {console.log(this.languages)};
-  }
   
-}
+  }}
+// Got Stuck :( Not sure where to go from here 
